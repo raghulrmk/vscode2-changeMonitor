@@ -1,0 +1,551 @@
+.super-class {
+    border-color:white;
+    border-style:solid;
+    border-width:1px;
+    display:flex;
+    flex-direction:column;
+    width:315px;
+    margin-top:100px;
+    margin-left:550px;
+    border-radius:10px;
+}
+.div-class1 {
+  
+   height:100px;
+   display:flex;
+   flex-direction:column;
+   margin-top:5px;
+}
+.sub-class1 {
+    border-bottom:1px solid grey;
+    
+    height:35px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    position:relative;
+    
+    
+    
+}
+.calcu {
+    color:white;
+    font-weight:500px;
+    font-size:18px;
+    font-family:arial;
+    
+}
+.side-class1 {
+    display:flex;
+    flex-direction:row;
+    margin-left:85px;
+    flex:1;
+    justify-content:space-between;
+
+}
+.close {
+    left:133px;
+    color:white;
+    background-color:black;
+    border:none;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.close:hover {
+    background-color:red;
+}
+.close:active {
+    opacity:0.6;
+}
+.maximize {
+   color:white;
+   background-color:black;
+   border:none;
+
+}
+.maximize:hover {
+    background-color:blue;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:5px;
+    padding-bottom:5px;
+
+}
+.maximize:active {
+    opacity:0.6;
+}
+.minimize {
+    color:white;
+    background-color:black;
+    border:none;
+}
+.minimize:hover {
+    background-color:orange;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:5px;
+    padding-bottom:5px;
+
+}
+.minimize:active {
+    opacity:0.6;
+}
+.sub-class2 {
+    border-bottom-color:grey;
+    border-bottom-width:1px;
+    display:flex;
+    flex-direction:row;
+    height:65px;
+    align-items:center;
+}
+.hori-bar {
+    width:20px;
+    height:15px;
+}
+.calculator-name {
+    font-family:arial;
+    font-size:20px;
+    font-weight:400px;
+    color:white;
+    margin-left:30px;
+}
+.button {
+    background-color:black;
+    border:none;
+    margin-left:115px;
+    width:32px;
+    height:28px;
+    position:relative;
+}
+.button:hover {
+    background-color:grey;
+}
+.button:active {
+    opacity:0.6;
+}
+.history-icon {
+    width:22px;
+    height:20px;
+    border-radius:10px;
+}
+.history {
+    position:absolute;
+    padding-left:3px;
+    padding-bottom:3px;
+    padding-right:3px;
+    padding-top:3px;
+    border-color:white;
+    border-width:1px;
+    border-style:solid;
+    background-color:grey;
+    color:white;
+    opacity:0;
+    pointer-events:none;
+}
+.button:hover .history {
+    opacity:1;
+}
+.button1 {
+    background-color:black;
+    border:none;
+    height:25px;
+    position:relative;
+}
+.button1:hover {
+    background-color:grey;
+}
+.button1:active {
+    opacity:0.6;
+}
+.settings {
+    position:absolute;
+    padding-left:3px;
+    padding-bottom:3px;
+    padding-right:3px;
+    padding-top:3px;
+    border-color:white;
+    border-width:1px;
+    border-style:solid;
+    background-color:grey;
+    color:white;
+    opacity:0;
+    pointer-events:none;
+}
+.button1:hover  .settings {
+    opacity:1;
+}
+.display-button {
+    flex:1;
+    margin-top:20px;
+    border-color:white;
+    background-color:black;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:15px;
+    padding-right:10px;
+    color:white;
+    transition: border-color 1s, border-radius 1s;
+}
+.display-button:hover {
+    border-color:blue;
+    border-radius:10px;
+}
+.div-class2 {
+    display:flex;
+    flex-direction:column;
+    height:55px;
+    margin-top:13px;
+    
+}
+.sub-class3 {
+    display:flex;
+    flex-direction:row;
+    border-top:1px solid white;
+    border-bottom:1px solid white;
+    height:27.5px;
+}
+.sub-class4 {
+    border-bottom:1px solid white;
+    padding-left:15px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+.button2 {
+    border:none;
+    background-color:black;
+    color:white;
+    margin-left:15px;
+
+}
+.button2:hover {
+    background-color:grey;
+}
+.button2:active {
+    opacity:0.6;
+}
+.button3 {
+    color:white;
+    background-color:black;
+    border:none;
+    margin-left:15px;
+}
+.button3:hover {
+    background-color:grey;
+}
+.button3:active {
+    opacity:0.6;
+}
+.button4 {
+    background-color:black;
+    border:none;
+    color:grey
+    
+}
+.button5 {
+    background-color:black;
+    border:none;
+    color:grey;
+    margin-left:20px;
+}
+.button6 {
+    background-color:black;
+    border:none;
+    color:white;
+    width:28px;
+    margin-left:20px;
+}
+.button6:hover {
+    background-color:grey;
+}
+.button6:active {
+    opacity:0.6;
+}
+.button7 {
+    background-color:black;
+    border:none;
+    color:white;
+    width:28px;
+    margin-left:20px;
+}
+.button7:hover {
+    background-color:grey;
+}
+.button7:active {
+    opacity:0.6;
+}
+.button8 {
+    background-color:black;
+    border:none;
+    color:white;
+    width:28px;
+    margin-left:20px;
+}
+.button8:hover {
+    background-color:grey;
+}
+.button8:active {
+    opacity:0.6;
+}
+.button9 {
+    background-color:black;
+    border:none;
+    color:grey;
+    margin-left:20px;
+    position:relative;
+}
+.down-arrow {
+    height:5px;
+    width:5px;
+    position:absolute;
+    border-top: 2px solid grey;
+    border-left:2px solid grey;
+    left:19px;
+    top:4px;
+    transform: rotate(225deg);
+    
+}
+.div-class3 {
+    display:flex;
+    flex-direction:row;
+    border-bottom:1px solid white;
+    height:35px;
+    
+   
+}
+.button10 {
+    border:none;
+    background-color:black;
+    color:white;
+    position:relative;
+    width:112px;
+    
+}
+.button10:hover {
+    background-color:grey;
+}
+.button10:active {
+    opacity:0.6;
+}
+.down-arrow2 {
+    height:5px;
+    width:5px;
+    position:absolute;
+    border-top: 2px solid white;
+    border-left:2px solid white;
+    left:100px;
+    bottom:14px;
+    transform: rotate(225deg);
+}
+.button11 {
+    background-color:black;
+    border:none;
+    color:white;
+    position:relative;
+    width:80px;
+    margin-left:40px;
+    
+}
+.button11:hover {
+    background-color:grey;
+}
+.button11:active {
+    opacity:0.6;
+}
+.down-arrow3 {
+    height:5px;
+    width:5px;
+    position:absolute;
+    border-top: 2px solid white;
+    border-left:2px solid white;
+    left:70px;
+    bottom:15px;
+    transform: rotate(225deg);
+}
+.div-class4 {
+    display:flex;
+    flex-direction:column;
+    
+}
+.sub-class5 {
+    display:flex;
+    flex-direction:row;
+    height:30px;
+    border:1px solid white;
+    justify-content:space-between;
+}
+.button12 {
+    height:30px;
+    width:50px;
+    background-color:rgb(57, 51, 51);
+    border-radius:5px;
+    margin-left:1px;
+    color:white;
+    border:none;
+}
+.button12:hover {
+    cursor:pointer;
+    opacity:0.8;
+}
+.button12:active {
+    opacity:0.6;
+}
+.sub-class6 {
+    display:flex;
+    flex-direction:row;
+    height:30px;
+    border:1px solid white;
+    justify-content:space-between;
+}
+.button13 {
+    height:30px;
+    width:50px;
+    background-color:rgb(57, 51, 51);
+    border-radius:5px;
+    margin-left:1px;
+    color:white;
+    border:none;
+}
+.button13:hover {
+    cursor:pointer;
+    opacity:0.8;
+}
+.button13:active {
+    opacity:0.6;
+}
+.sub-class7 {
+    display:flex;
+    flex-direction:row;
+    height:30px;
+    border:1px solid white;
+    justify-content:space-between;
+}
+.button14 {
+    height:30px;
+    width:50px;
+    background-color:rgb(57, 51, 51);
+    border-radius:5px;
+    margin-left:1px;
+    color:white;
+    border:none;
+}
+.button14:hover {
+    cursor:pointer;
+    opacity:0.8;
+}
+.button14:active {
+    opacity:0.6;
+}
+.sub-class8 {
+    display:flex;
+    flex-direction:row;
+    height:30px;
+    border:1px solid white;
+    justify-content:space-between;
+}
+.button15 {
+    height:30px;
+    width:50px;
+    background-color:rgb(57, 51, 51);
+    border-radius:5px;
+    margin-left:1px;
+    color:white;
+    border:none;
+}
+.button15:hover {
+    cursor:pointer;
+    opacity:0.8;
+}
+.button15:active {
+    opacity:0.6;
+}
+.sub-class9 {
+    display:flex;
+    flex-direction:row;
+    height:30px;
+    border:1px solid white;
+    justify-content:space-between;
+}
+.button16 {
+    height:30px;
+    width:50px;
+    background-color:rgb(57, 51, 51);
+    border-radius:5px;
+    margin-left:1px;
+    color:white;
+    border:none;
+}
+.button16:hover {
+    cursor:pointer;
+    opacity:0.8;
+}
+.button16:active {
+    opacity:0.6;
+}
+.sub-class10 {
+    display:flex;
+    flex-direction:row;
+    height:30px;
+    border:1px solid white;
+    justify-content:space-between;
+}
+.button17 {
+    height:30px;
+    width:50px;
+    background-color:rgb(57, 51, 51);
+    border-radius:5px;
+    margin-left:1px;
+    color:white;
+    border:none;
+}
+.button17:hover {
+    cursor:pointer;
+    opacity:0.8;
+}
+.button17:active {
+    opacity:0.6;
+}
+.sub-class11 {
+    display:flex;
+    flex-direction:row;
+    height:30px;
+    border:1px solid white;
+    justify-content:space-between;
+}
+.button18 {
+    height:30px;
+    width:50px;
+    background-color:rgb(57, 51, 51);
+    border-radius:5px;
+    margin-left:1px;
+    color:white;
+    border:none;
+}
+.button18:hover {
+    cursor:pointer;
+    opacity:0.8;
+}
+.button18:active {
+    opacity:0.6;
+}
+.button19 {
+    height:30px;
+    width:50px;
+    background-color:blue;
+    border-radius:5px;
+    margin-left:1px;
+    color:black;
+    border:none;
+}
+.button19:hover {
+    cursor:pointer;
+    opacity:0.8;
+}
+.button19:active {
+    opacity:0.6;
+}
+
+
+
