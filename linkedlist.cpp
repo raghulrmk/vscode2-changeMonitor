@@ -73,6 +73,6 @@ int main() {
     insertElementinmiddle(&ptr1,11);
     insertElementinmiddle(&ptr2,12);
     display(ptr1);
-   
+ 
     
 }
